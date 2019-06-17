@@ -1,0 +1,7 @@
+Challenge: You are given one long string (a song) and the word "WUB" is scattered throughout the string. You need to replace all "WUB"'s with a space instead.
+
+function songDecoder (song) {
+  return song.replace(/(WUB)+/g, " ").trim();
+}
+
+console.log(songDecoder("AWUBBWUBCWUBDWUBEWUBFWUBG"));
